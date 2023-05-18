@@ -1,9 +1,9 @@
-
+require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
-const dotenv = require("dotenv").config();
+
 
 const app = express();
 
